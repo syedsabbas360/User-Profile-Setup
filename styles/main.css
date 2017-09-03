@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700');
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #34495E
+;
+  padding-top: 2rem;
+}
+
+section {
+  max-width: 760px;
+  background-color: #ffffff;
+  padding: 2rem 0;
+}
+
+h1 {
+  font-size: 2em;
+  padding-bottom: 20px;
+  margin-top: 0;
+}
+
+.outer1 {
+  text-align: center;
+  width: 80%;
+  color:white;
+  background-color:#7F8C8D
+
+
+}
+
+.outer2 {
+  width: 80%;
+  background-color:#7F8C8D
+
+}
+
+.inner {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #2C3E50
+;
+  height: 75vh;
+}
+
+.profile1 {
+  margin-bottom: -30px;
+}
+
+.profile2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.profile2 div {
+  flex-basis: 50%
+}
+
+.personal {
+  margin: 0 160px;
+}
+
+.profile2 div input {
+  width: 90%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.profile2 div label {
+  margin-left: 10px;
+}
+
+.pic {
+  margin-top: 20px;
+}
+
+.pic input {
+  font-size: 13px;
+  margin-top: 0 !important;
+}
+
+.submit {
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 10px;
+  font-size: 1em;
+}
+
+.subdiv {
+  padding-top: 20px;
+}
+
+.password {
+  margin-top: 30px;
+}

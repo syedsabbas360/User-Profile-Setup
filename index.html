@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>Profile Setup</title>
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+
+  <body>
+    <div class="outer">
+      <section class="outer1">
+        <h1>Sign up</h1>
+        <form class="profile1" action="index.html" method="post">
+          <input type="radio" name="admin" value="admin">
+          <label for="admin">admin</label>
+          <span class="personal">
+            <input type="radio" name="personal" value="personal">
+            <label for="personal">personal</label>
+          </span>
+          <input type="radio" name="guest" value="guest">
+          <label for="guest">guest</label>
+        </form>
+      </section>
+    </div>
+    <div class="inner">
+      <section class="outer2">
+        <form class="profile2" action="index.html" method="post">
+          <div>
+            <label for="name">name</label>
+            <br>
+            <input type="text" name="name">
+          </div>
+          <div>
+            <label for="email">email address</label>
+            <br>
+            <input type="email" name="email">
+          </div>
+          <div class="password">
+            <label for="password">password</label>
+            <br>
+            <input type="password" name="password">
+          </div>
+          <div class="password">
+            <label for="confirm">confirm password</label>
+            <br>
+            <input type="password" name="confirm">
+          </div>
+          <div class="pic">
+            <label for="pic">profile picture</label>
+            <br>
+            <input type="file" name="pic">
+          </div>
+          <div class="subdiv">
+            <input class="submit" type="submit" name="submit" value="sign up">
+          </div>
+        </form>
+      </section>
+    </div>
+  </body>
+
+</html>
